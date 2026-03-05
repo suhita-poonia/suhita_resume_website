@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    body{
+    scroll-behavior:smooth;
+    }
+    
+
+    .page{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+    }
+    
+    .card{
+    background:white;
+    padding:150px;
+    width:80%;
+    max-width:1200px;
+    box-shadow:0 0 20px rgba(0,0,0,0.2);
+    text-align:left;
+    }
+
+    h1{
+    font-size:40px;
+    margin-bottom:20px;
+    }
+    
+    h2{
+    margin-bottom:25px;
+    }
+
+    .intro{
+    background:#f25c2b;
+    }
+    
+    .intro-text{
+    font-size:20px;
+    margin-bottom:20px;
+    }
+    
+    .hello{
+    color:#f25c2b;
+    font-weight:bold;
+    text-decoration:none;
+    }
+
+    .icons{
+    margin-top:30px;
+    }
+    
+    .icons a{
+    margin:10px;
+    font-size:24px;
+    color:#333;
+    text-decoration:none;
+    }
+    
+    .icons a:hover{
+    color:#f25c2b;
+    }
+ 
+    .bio{
+    background:#3fa7d6;
+    color:white;
+    }
+    
+    .bio .card{
+    background:#ffffff;
+    color:black;
+    }
+ 
+    .education{
+    background:#6a4c93;
+    color:white;
+    }
+    
+    .education .card{
+    color:black;
+    }
+    
+    .projects{
+    background:#2a9d8f;
+    color:white;
+    }
+    
+    .projects .card{
+    color:black;
+    }
+
+    .skills{
+    background:#f4a261;
+    color:white;
+    }
+    
+    .skills .card{
+    color:black;
+    }
+    
+    ul{
+    text-align:left;
+    margin-top:20px;
+    }
+    
+    li{
+    margin-bottom:15px;
+    }
